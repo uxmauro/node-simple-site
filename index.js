@@ -3,17 +3,6 @@ const path = require('path');
 const fs = require('fs');
 
 
-/* 
-if (req.url === '/') {
-    fs.readFile(path.join(__dirname, 'public', 'index.html'), (err, content) =>{
-        if(err) throw err
-        res.writeHead(200, { 'Content-Type' : 'text/html'})
-        res.end(content)
-    })
-}
-}) */
-
-
 const server = http.createServer((req, res) => {
 
 //build file path    
